@@ -34,7 +34,7 @@ var orm = {
             if (err) {
                 throw err;
             }
-            cb(results);
+            cb(result);
         });
     },
     insertOne: function(table, cols, vals, cb) {
