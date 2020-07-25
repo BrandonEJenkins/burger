@@ -1,26 +1,23 @@
 {
     "development": {
-    "username": "x631ya7a2e8czlpy",
-    "password": "ua2ugk0ef911g0vj",
-    "database": "svn6kfb14oeiqdvr",
-    "host": "x40p5pp7n9rowyv6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "port": 3306,
-    "dialect": "mysql"
+      "username": "root",
+      "password": "Bjbootcamp1!",
+      "database": "burger",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "dialect": "mysql"
     },
     "test": {
-    "username": "x631ya7a2e8czlpy",
-    "password": "ua2ugk0ef911g0vj",
-    "database": "svn6kfb14oeiqdvr",
-    "host": "x40p5pp7n9rowyv6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "port": 3306,
-    "dialect": "mysql"
+      "username": "root",
+      "password": "Bjbootcamp1!",
+      "database": "burger",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "dialect": "mysql"
     },
     "production": {
-    "username": "x631ya7a2e8czlpy",
-    "password": "ua2ugk0ef911g0vj",
-    "database": "svn6kfb14oeiqdvr",
-    "host": "x40p5pp7n9rowyv6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-    "port": 3306,
-    "dialect": "mysql"
+        "use_env_variable": "JAWSDB_URL",
+      "dialect": "mysql"
     }
-}  
+  }
+  
